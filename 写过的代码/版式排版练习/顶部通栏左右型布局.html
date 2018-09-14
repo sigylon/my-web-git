@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>左右形布局</title>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding:0;
+		}
+		.top {
+			height: 80px;
+			background-color: red;
+			margin-bottom: 8px;
+		}			
+		
+		.banner,
+		.main,
+		.footer{
+
+			width: 900px;
+			background-color:#ccc;
+			border: 1px solid red;
+			margin: 0 auto;
+			margin-bottom: 8px;
+
+		}
+		.top-main {
+			width: 900px;
+			background-color:#ccc;
+			height: 80px;
+			margin: auto;
+		}
+		.banner {
+			height: 100px;
+			background-color: yellow;
+		}
+		.main {
+			height: 500px;
+		}
+		.main-left {
+			width: 300px;
+			height: 500px;
+			float: left;
+			background-color: red;
+			margin-right: 10px;
+		
+
+		}
+		.main-right {
+			width: 590px;
+			height: 500px;
+			float: left;
+			background-color: blue;
+			
+
+
+		}
+		.footer{
+			height: 100px;
+		}
+
+		ul {
+			list-style: none;
+		}
+
+		.banner li {
+			float: left;
+			width: 160px;
+			height: 100px;
+			margin-right:20px;
+		}
+		.one {
+			background-color: red;
+		}
+		.two {
+			background-color: red;
+		}
+		.three {
+			background-color: red;
+		}
+		.four {
+			background-color: blue;
+		}
+		.fire {
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div class="top">
+		<div class="top-main">top</div>
+	</div>
+	<div class="banner">
+		<ul>
+			<li class="one">1</li>
+			<li class="two">2</li>
+			<li class="three">3</li>
+			<li class="four">4</li>
+			<li class="fire">5</li>
+		</ul>
+</div>
+	<div class="main">
+		<div class="main-left">main-left</div>
+		<div class="main-right">main-right</div>
+	</div>
+	<div class="footer">footer</div>
+</body>
+</html>

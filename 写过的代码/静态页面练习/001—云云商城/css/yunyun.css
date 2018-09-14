@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding:0;
+
+}
+
+body {
+	background-color: #fafafa;
+	height: 3000px;
+}
+/*顶部导航栏*/
+.header {
+
+	height: 100px;
+	background-color: #fff;
+}
+.inner {
+	height: 100px;
+	width: 1200px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+.logo{
+	margin-left: 0px;
+	float: left;
+}
+.menu {
+	width: 600px;
+	height: 80px;
+	float: right;
+}
+.menu a {
+	text-decoration: none;
+	color: #323232;
+}
+.menu li {
+	float: left;
+	font-size: 18px;
+	width:100px ;
+	list-style: none;
+	text-align: center;
+	line-height: 80px;
+	
+	padding-top: 20px;
+}
+.menu a:hover{
+	color: #2c89e9;
+	background-color: #fafafa;
+	box-shadow: 2px 2px 5px #fafafa;
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+/*顶部导航栏结束*/
+/*横幅广告*/
+.banner {
+	
+	height: 620px;
+	background: url(../image/banner01.png ) no-repeat top center;
+
+}
+/*横幅广告结束*/
+/*服务模块开始*/
+.service {
+	margin:75px auto 0px;
+	width: 1055px;
+	
+}
+.service-hd {
+	border-top: 1px solid #ccc;
+	
+	margin: 0 25px;
+	height: 150px;
+
+}
+.service-bd{
+	
+	height: 500px;
+}
+.service-hd h3{
+	width: 168px;
+	height: 45px;
+	margin: -22px auto 0;
+}
+.service-hd p {
+	font-size: 12px;
+	color: #666;
+	line-height: 26px;
+	text-align: center;
+	width: 830px;
+	margin:20px auto 0;
+}
+.service-bd {
+	height: 570px;
+
+}
+.service-bd ul{
+	list-style: none;
+	overflow: hidden;
+
+}
+.service-bd li {
+	width: 320px;
+	height: 510px;
+	float: left;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.service-bd .two {
+	margin:0 44px 0;
+
+}
+.service-bd 
+.three{
+	float: right;
+}
+.service-bd .one h2{
+	height: 46px;
+	color: #656565;
+	text-align: center;
+}
+.service-bd .one p {
+	height: 110px;
+	width: 240px;
+	margin:0 40px;
+	color: #656565;
+	font-size: 14px;
+	
+}
+.service-bd .one a {
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height: 38px;
+	border: 1px solid #ff9412 ;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #ff9412;
+	text-align: center;
+	line-height: 38px;
+	margin:40px auto 0;
+}
+.service-bd .one a:hover {
+	color: #fff;
+	background-color: #ff9412;
+}
+
+.service-bd .two h2{
+	height: 46px;
+	color: #656565;
+	text-align: center;
+}
+.service-bd .two p {
+	height: 110px;
+	width: 240px;
+	margin:0 40px;
+	color: #656565;
+	font-size: 14px;
+	
+}
+.service-bd .two a {
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height: 38px;
+	border: 1px solid #ff9412 ;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #ff9412;
+	text-align: center;
+	line-height: 38px;
+	margin:40px auto 0;
+}
+.service-bd .two a:hover {
+	color: #fff;
+	background-color: #ff9412;
+}
+.service-bd .three h2{
+	height: 46px;
+	color: #656565;
+	text-align: center;
+}
+.service-bd .three p {
+	height: 110px;
+	width: 240px;
+	margin:0 40px;
+	color: #656565;
+	font-size: 14px;
+	
+}
+.service-bd .three a {
+	text-decoration: none;
+	display: block;
+	width: 150px;
+	height: 38px;
+	border: 1px solid #ff9412 ;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #ff9412;
+	text-align: center;
+	line-height: 38px;
+	margin:40px auto 0;
+}
+.service-bd .three a:hover {
+	color: #fff;
+	background-color: #ff9412;
+}
+
+
+/*服务模块结束*/
